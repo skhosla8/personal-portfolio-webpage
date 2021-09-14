@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.typekit.net/eom3pub.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Personal Portfolio Webpage</title>
+</head>
+
+<body>
+    <!--dropdown menu for smaller screens -->
+    <div id="dropdown">
+        <button id="drop-btn">MENU
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div id="dropdown-content">
+            <a href="#welcome-section">ABOUT</a>
+            <a href="#projects">PORTFOLIO</a>
+            <a href="#contact">CONTACT</a>
+        </div>
+    </div>
+
+    <!-- traditional menu for larger screens -->
+    <header id="navbar">
+        <ul>
+            <li><a href="#welcome-section" class="menu-a">ABOUT</a></li>
+            <li><a href="#projects" class="menu-a">PORTFOLIO</a></li>
+            <li><a href="#contact" class="menu-a">CONTACT</a></li>
+            <li><button id="nav-btn"><a href="#contact">LET'S CHAT</a></button></li>
+        </ul>
+    </header>
+
+    <section id="welcome-section">
+        <div id="welcome-container">
+            <div id="welcome-section-wrapper">
+                <h3 id="welcome" class="welcome-title">Welcome, I'm</h3>
+                <h1 id="john-doe" class="welcome-title"> John Doe</h1>
+                <h3 id="developer" class="welcome-title"><mark>Web Developer</mark></h3>
+            </div>
+            <div id="img-container">
+                <img id="headshot" src="https://i.ibb.co/W3YbVpk/businessmanvector.png" alt="businessmanvector"
+                    border="0">
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h3 id="subheader">Client projects</h3>
+        <div id="projects-grid">
+            <div class="project-div">
+                <a href="" target="_blank" class="project-tile">
+                    <img src="https://i.ibb.co/NZDMz0P/Screen-Shot-2021-01-31-at-12-07-11-PM.png" alt="tribute-page"
+                        border="0" class="project-image">
+                    <p class="project-title">TRIBUTE PAGE</p>
+                </a>
+            </div>
+            <div class="project-div">
+                <a href="" target="_blank" class="project-tile">
+                    <img src="https://i.ibb.co/nwpX9KK/Screen-Shot-2021-01-31-at-10-38-45-AM.png" alt="survey-form"
+                        border="0" class="project-image">
+                    <p class="project-title">SURVERY FORM</p>
+                </a>
+            </div>
+            <div class="project-div">
+                <a href="" target="_blank" class="project-tile">
+                    <img src="https://i.ibb.co/GnyLWvQ/Screen-Shot-2021-01-31-at-12-27-51-PM.png" alt="landing-page"
+                        border="0" class="project-image">
+                    <p class="project-title">LANDING PAGE</p>
+                </a>
+            </div>
+
+            <div class="project-div">
+                <a href="" target="_blank" class="project-tile">
+                    <img src="https://i.ibb.co/Fnt5Ypt/Screen-Shot-2021-02-01-at-3-47-09-AM.png" alt="quote-machine"
+                        border="0" class="project-image">
+                    <p class="project-title">QUOTE MACHINE</p>
+                </a>
+            </div>
+            <div class="project-div">
+                <a href="" target="_blank" class="project-tile">
+                    <img src="https://i.ibb.co/HTwM03G/Screen-Shot-2021-02-01-at-3-54-07-AM.png" alt="recipe-box"
+                        border="0" class="project-image">
+                    <p class="project-title">RECIPE BOX</p>
+                </a>
+            </div>
+            <div class="project-div">
+                <a href="" target="_blank" class="project-tile">
+                    <img src="https://i.ibb.co/Ry51fKP/Screen-Shot-2021-02-01-at-3-59-05-AM.png" alt="pomodoro-clock"
+                        border="0" class="project-image">
+                    <p class="project-title">POMODORO CLOCK</p>
+                </a>
+            </div>
+        </div>
+        <div class="button-div">
+            <button id="btn" type="button">
+                SHOW ALL
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div id="contact-div">
+            <p id="contact-p">Let's connect...</p>
+            <p id="coffee-p">How do you take your coffee?</p>
+        </div>
+        <div id="social-icons">
+            <a href="" target="_blank" class="icon-group">
+                <i class="fab fa-facebook-square fa-2x"></i>
+                FACEBOOK
+            </a>
+            <a href="" id="profile-link" target="_blank" class="icon-group">
+                <i class="fab fa-github fa-2x"></i>
+                GITHUB
+            </a>
+            <a href="" target="_blank" class="icon-group">
+                <i class="fab fa-twitter fa-2x"></i>
+                TWITTER
+            </a>
+            <a href="" target="_blank" class="icon-group">
+                <i class="fas fa-at fa-2x"></i>
+                EMAIL ME
+            </a>
+            <a href="" target="_blank" class="icon-group">
+                <i class="fas fa-mobile-alt fa-2x"></i>
+                CALL ME
+            </a>
+        </div>
+    </section>
+
+    <section id="footer">
+        <p>Copyright &#169;2021 John Doe. All rights reserved</p>
+    </section>
+</body>
+
+</html>
